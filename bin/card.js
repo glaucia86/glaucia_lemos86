@@ -15,13 +15,13 @@ const options = {
 // Text + chalk definitions
 const data = {
   name: chalk.white('Glaucia Lemos /'),
-  handle: chalk.cyan('glaucia86'),
+  handle: chalk.cyan('glaucia_lemos86'),
   work: chalk.white('Software Developer at HackDev'),
   twitter: chalk.cyan('https://twitter.com/glaucia_lemos86'),
   github: chalk.cyan('https://github.com/glaucia86'),
   linkedin: chalk.cyan('https://www.linkedin.com/in/glaucialemos/'),
   web: chalk.cyan('https://code4coders.wordpress.com/'),
-  npx: chalk.white('npx glaucia86'),
+  npx: chalk.white('npx glaucia_lemos86'),
   labelWork: chalk.white.bold('      Work:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),

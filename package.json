@@ -1,6 +1,6 @@
 {
-  "name": "glaucia86",
-  "version": "3.0.0",
+  "name": "glaucia_lemos86",
+  "version": "1.0.0",
   "description": "Uma pequena aplicação que simula um cartão pessoal para Glaucia Lemos (@glaucia86) baseado pelo Tierney Cyren (@bitandbang)",
   "main": "index.js",
   "bin": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/glaucia86/glaucia86.git"
   },
-  "author": "Tierney Cyren, Glaucia Lemos <code4coders.wordpress.com/>",
+  "author": "Tierney Cyren, Glaucia Lemos (code4coders.wordpress.com/)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
