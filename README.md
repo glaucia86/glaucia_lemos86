@@ -1,10 +1,21 @@
-# Cartão Pessoal via NPX - Glaucia Lemos :floppy_disk:
+# Cartão Pessoal NPX - Glaucia Lemos :floppy_disk:
 
-![alt_image](https://i.imgsafe.org/c6/c6bd082171.png)
+<p align="center">
+  <img src="https://i.imgsafe.org/c6/c6bd082171.png"/>  
+</p>
 
 Desenvolvimento de uma pequena aplicação que simula um cartão pessoal. Exemplo de código baseado pelo ilustre **[Tierney Cyren](@bitandbang)**
 
-No caso aqui, estou usando os meus dados para criar o meu Cartão Pessoal, conforme segue a imagem abaixo:
+No caso aqui, estou usando os meus dados para criar o meu Cartão Pessoal. O pacote, no caso do meu cartão pessoal, encontra-se disponível no site do **npmjs** pelo link: 
+
+- Pacote npm : [glaucia_lemos86](https://www.npmjs.com/package/glaucia_lemos86)
+
+Para instalar basta digitar o seguinte comando:
+
+```
+> npm install glaucia_lemos86
+
+```
 
 
 ## Recursos Utilizados: :fire:
