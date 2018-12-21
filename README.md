@@ -15,6 +15,7 @@ No caso aqui, estou usando os meus dados para criar o meu Cartão Pessoal, confo
     - boxen
     - chalk
     - standard
+    - commander
 
 ## Okay... Curti! Quero fazer o meu.. Como faço?! :rocket:
 
@@ -46,6 +47,10 @@ Basta seguir os passos abaixo:
 
 ```
 > npm install boxen --save
+```
+
+```
+> npm install commander --save
 ```
 
 3. Feito isso, agora copie o código abaixo e coloque no arquivo **card.js**: (inclua os seus dados!!)
