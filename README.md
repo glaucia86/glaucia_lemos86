@@ -10,13 +10,12 @@ No caso aqui, estou usando os meus dados para criar o meu Cartão Pessoal. O pac
 
 - Pacote npm : [glaucia_lemos86](https://www.npmjs.com/package/glaucia_lemos86)
 
-Para instalar basta digitar o seguinte comando:
+Para instalar o package do meu cartão pessoal basta digitar o seguinte comando:
 
 ```
 > npm install glaucia_lemos86
 
 ```
-
 
 ## Recursos Utilizados: :fire:
 
