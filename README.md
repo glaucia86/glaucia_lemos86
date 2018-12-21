@@ -1,4 +1,6 @@
-# Cartão Pessoal via NPX - Glaucia Lemos :clipboard:
+# Cartão Pessoal via NPX - Glaucia Lemos :floppy_disk:
+
+![alt_image](https://i.imgsafe.org/c6/c6bd082171.png)
 
 Desenvolvimento de uma pequena aplicação que simula um cartão pessoal. Exemplo de código baseado pelo ilustre **[Tierney Cyren](@bitandbang)**
 
@@ -73,13 +75,13 @@ const options = {
 // Text + chalk definitions
 const data = {
   name: chalk.white('Glaucia Lemos /'),
-  handle: chalk.cyan('glaucia86'),
+  handle: chalk.cyan('glaucia_lemos86'),
   work: chalk.white('Software Developer at HackDev'),
   twitter: chalk.cyan('https://twitter.com/glaucia_lemos86'),
   github: chalk.cyan('https://github.com/glaucia86'),
   linkedin: chalk.cyan('https://www.linkedin.com/in/glaucialemos/'),
   web: chalk.cyan('https://code4coders.wordpress.com/'),
-  npx: chalk.white('npx glaucia86'),
+  npx: chalk.white('npx glaucia_lemos86'),
   labelWork: chalk.white.bold('      Work:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
@@ -125,7 +127,19 @@ console.log(chalk.green(boxen(output, options)))
 7. E finalmente... execute o comando abaixo para visualizar o seu cartão pessoal criado:
 
 ```
-> npx glaucia86 
+> npx glaucia_lemos86 
 ```
 
 E vòilá! Aparecerá o seu Cartão Pessoal!! :heart_eyes:
+
+![alt_image](https://i.imgsafe.org/c6/c6bd082171.png)
+
+## Agradecimentos! :smiley:
+
+Conforme mencionado acima, esse projeto foi baseado pelo repositório do **[Tierney Cyren](@bitandbang)**. 
+So, I would like to say thank you @bitandbang for your contribution in this awesome project! **[NPX Card Profile](https://github.com/bnb/bitandbang)** :star::star::star:
+
+## Querem Propor Melhorias no Código? Façam Pull Request!!! 
+
+Caso queiram que eu implemente algo no código, abram uma **[ISSUE]()** nesse repositório. Assim, todos poderão colaborar para o melhor desenvolvimento desse repositório. E sintam-se à vontade em fazer Pull Requests!! ❤️ ❤️ ❤️
+
