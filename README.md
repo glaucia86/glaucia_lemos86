@@ -4,13 +4,14 @@
   <img src="https://i.imgsafe.org/c6/c6bd082171.png"/>  
 </p>
 
-Desenvolvimento de uma pequena aplicação que simula um cartão pessoal. Exemplo de código baseado pelo ilustre **[Tierney Cyren](@bitandbang)**
+Desenvolvimento de um package que simula um cartão pessoal. O exemplo desenvolvido aqui foi baseado 
+no repositório do ilustre **[Tierney Cyren](@bitandbang)**
 
-No caso aqui, estou usando os meus dados para criar o meu Cartão Pessoal. O pacote, no caso do meu cartão pessoal, encontra-se disponível no site do **npmjs** pelo link: 
+No caso aqui, estou usando os meus dados para criar o meu Cartão Pessoal. O pacote, que nesse caso é o meu cartão pessoal, encontra-se disponível no site do **npmjs** pelo link: 
 
-- Pacote npm : [glaucia_lemos86](https://www.npmjs.com/package/glaucia_lemos86)
+- Cartão Pessoal Glaucia Lemos: **[glaucia_lemos86](https://www.npmjs.com/package/glaucia_lemos86)**
 
-Para instalar o package do meu cartão pessoal basta digitar o seguinte comando:
+Para instalar o package do meu cartão pessoal, bastam executar o seguinte comando abaixo:
 
 ```
 > npm install glaucia_lemos86
@@ -23,7 +24,7 @@ Para instalar o package do meu cartão pessoal basta digitar o seguinte comando:
 - Javascript
 - Node.Js
 - Npm
-- Uso de pacotes
+- Uso dos pacotes:
     - boxen
     - chalk
     - standard
@@ -151,5 +152,5 @@ So, I would like to say thank you @bitandbang for your contribution in this awes
 
 ## Querem Propor Melhorias no Código? Façam Pull Request!!! 
 
-Caso queiram que eu implemente algo no código, abram uma **[ISSUE]()** nesse repositório. Assim, todos poderão colaborar para o melhor desenvolvimento desse repositório. E sintam-se à vontade em fazer Pull Requests!! ❤️ ❤️ ❤️
+Caso queiram que eu implemente algo no código, abram uma **[ISSUE](https://github.com/glaucia86/glaucia86/issues)** nesse repositório. Assim, todos poderão colaborar para o melhor desenvolvimento desse projeto. E sintam-se à vontade em fazer Pull Requests!! ❤️ ❤️ ❤️
 
