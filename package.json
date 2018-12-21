@@ -4,7 +4,7 @@
   "description": "Uma pequena aplicação que simula um cartão pessoal para Glaucia Lemos (@glaucia86) baseado pelo Tierney Cyren (@bitandbang)",
   "main": "index.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "glaucia86": "./bin/card.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
