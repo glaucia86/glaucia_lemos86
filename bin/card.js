@@ -17,20 +17,20 @@ const options = {
 
 // Inclusão do Text e mais as definições do ‘chalk’:
 const data = {
-  name: chalk.white('Glaucia Lemos /'),
-  handle: chalk.cyan('glaucia_lemos86'),
+  name: chalk.white('         Glaucia Lemos /'),
+  handle: chalk.white('glaucia_lemos86'),
   work: chalk.white('Software Developer at HackDev'),
   twitter: chalk.white('https://twitter.com/glaucia_lemos86'),
   github: chalk.white('https://github.com/glaucia86'),
   linkedin: chalk.white('https://www.linkedin.com/in/glaucialemos/'),
   web: chalk.white('https://code4coders.wordpress.com/'),
   npx: chalk.white('npx glaucia_lemos86'),
-  labelWork: chalk.hex('#ff0040').bold('      Work:'),
-  labelTwitter: chalk.hex('#40ff00').bold('   Twitter:'),
-  labelGitHub: chalk.hex('#ffbf00').bold('    GitHub:'),
-  labelLinkedIn: chalk.hex('#0000ff').bold('  LinkedIn:'),
-  labelWeb: chalk.hex('#ff4879').bold('       Web:'),
-  labelCard: chalk.hex('#ffff00').bold('      Card:')
+  labelWork: chalk.rgb(255, 0, 0).bold('      Work:'),
+  labelTwitter: chalk.rgb(0, 255, 0).bold('   Twitter:'),
+  labelGitHub: chalk.rgb(253, 245, 5).bold('    GitHub:'),
+  labelLinkedIn: chalk.rgb(0, 255, 255).bold('  LinkedIn:'),
+  labelWeb: chalk.rgb(191, 255, 0).bold('       Web:'),
+  labelCard: chalk.rgb(240, 13, 240).bold('      Card:')
 }
 
 // Aqui será a saída do nosso Cartão Pessoal em NPX:
