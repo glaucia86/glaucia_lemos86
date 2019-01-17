@@ -7,7 +7,9 @@
     "glaucia86": "./bin/card.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js bin",
+    "fix": "eslint --ext .js --fix bin"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,9 @@
     "commander": "^2.19.0"
   },
   "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "standard": "^12.0.1"
   },
   "bugs": {
