@@ -1,11 +1,11 @@
-# Cartão Pessoal NPX - Glaucia Lemos :floppy_disk:
+# Cartão Pessoal em NPX - Glaucia Lemos :floppy_disk:
 
 <p align="center">
   <img src="https://i.imgsafe.org/c6/c6bd082171.png"/>  
 </p>
 
 Desenvolvimento de um package que simula um cartão pessoal. O exemplo desenvolvido aqui foi baseado 
-no repositório do ilustre **[Tierney Cyren](@bitandbang)**
+no repositório do ilustre **[Tierney Cyren](https://twitter.com/bitandbang)**
 
 No caso aqui, estou usando os meus dados para criar o meu Cartão Pessoal. O pacote, que nesse caso é o meu cartão pessoal, encontra-se disponível no site do **npmjs** pelo link: 
 
@@ -70,20 +70,20 @@ Basta seguir os passos abaixo:
 
 ```
 #!/usr/bin/env node
-// 👆 Used to tell Node.js that this is a CLI tool
+// Usado para dizer ao Node.js que se trata de uma ferramenta do CLI
 
-// Pull in our modules
+// Declarando os módulos:
 const chalk = require('chalk')
 const boxen = require('boxen')
 
-// Define options for Boxen
+// Definindo as opções para o ‘boxen’:
 const options = {
   padding: 1,
   margin: 1,
   borderStyle: 'round'
 }
 
-// Text + chalk definitions
+// Inclusão do Text e mais as definições do ‘chalk’:
 const data = {
   name: chalk.white('Glaucia Lemos /'),
   handle: chalk.cyan('glaucia_lemos86'),
@@ -101,7 +101,7 @@ const data = {
   labelCard: chalk.white.bold('      Card:')
 }
 
-// Actual strings we're going to output
+// Aqui será a saída do nosso Cartão Pessoal em NPX:
 const newline = '\n'
 const heading = `${data.name} ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
@@ -111,19 +111,20 @@ const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
-// Put all our output together into a single variable so we can use boxen effectively
+// Aqui devemos colocar toda a nossa saída numa única variável para que possamos usar 
+// o ‘boxen de maneira efetiva: 
 const output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding
 
 console.log(chalk.green(boxen(output, options)))
 ```
 
-4. Execute o comando abaixo para que possamos verificar a versão que possue do **npm**:
+4. Execute o comando abaixo para que possamos verificar a versão que possuem do **npm**:
 
 ```
 > npm version major
 ```
 
-5. Após verificar qual a versão do **npm** que possue, execute o comando abaixo:
+5. Após verificar qual a versão do **npm** que possuem, execute o comando abaixo:
 
 ```
 > npm adduser

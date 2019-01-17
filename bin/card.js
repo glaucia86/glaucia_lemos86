@@ -1,36 +1,39 @@
 #!/usr/bin/env node
-// 👆 Used to tell Node.js that this is a CLI tool
+// Usado para dizer ao Node.js que se trata de uma ferramenta do CLI
 
-// Pull in our modules
+// Declarando os módulos:
 const chalk = require('chalk')
 const boxen = require('boxen')
 
-// Define options for Boxen
+// Definindo as opções para o ‘boxen’:
 const options = {
-  padding: 1,
-  margin: 1,
-  borderStyle: 'round'
+  padding: 5,
+  margin: 5,
+  borderStyle: 'double',
+  float: 'center',
+  borderColor: '#ff4879',
+  backgroundColor: 'black'
 }
 
-// Text + chalk definitions
+// Inclusão do Text e mais as definições do ‘chalk’:
 const data = {
   name: chalk.white('Glaucia Lemos /'),
   handle: chalk.cyan('glaucia_lemos86'),
   work: chalk.white('Software Developer at HackDev'),
-  twitter: chalk.cyan('https://twitter.com/glaucia_lemos86'),
-  github: chalk.cyan('https://github.com/glaucia86'),
-  linkedin: chalk.cyan('https://www.linkedin.com/in/glaucialemos/'),
-  web: chalk.cyan('https://code4coders.wordpress.com/'),
+  twitter: chalk.white('https://twitter.com/glaucia_lemos86'),
+  github: chalk.white('https://github.com/glaucia86'),
+  linkedin: chalk.white('https://www.linkedin.com/in/glaucialemos/'),
+  web: chalk.white('https://code4coders.wordpress.com/'),
   npx: chalk.white('npx glaucia_lemos86'),
-  labelWork: chalk.white.bold('      Work:'),
-  labelTwitter: chalk.white.bold('   Twitter:'),
-  labelGitHub: chalk.white.bold('    GitHub:'),
-  labelLinkedIn: chalk.white.bold('  LinkedIn:'),
-  labelWeb: chalk.white.bold('       Web:'),
-  labelCard: chalk.white.bold('      Card:')
+  labelWork: chalk.hex('#ff0040').bold('      Work:'),
+  labelTwitter: chalk.hex('#40ff00').bold('   Twitter:'),
+  labelGitHub: chalk.hex('#ffbf00').bold('    GitHub:'),
+  labelLinkedIn: chalk.hex('#0000ff').bold('  LinkedIn:'),
+  labelWeb: chalk.hex('#ff4879').bold('       Web:'),
+  labelCard: chalk.hex('#ffff00').bold('      Card:')
 }
 
-// Actual strings we're going to output
+// Aqui será a saída do nosso Cartão Pessoal em NPX:
 const newline = '\n'
 const heading = `${data.name} ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
@@ -40,7 +43,8 @@ const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
-// Put all our output together into a single variable so we can use boxen effectively
+// Aqui devemos colocar toda a nossa saída numa única variável para que possamos usar 
+// o ‘boxen de maneira efetiva: 
 const output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding
 
 console.log(chalk.green(boxen(output, options)))
