@@ -7,44 +7,57 @@ const boxen = require('boxen');
 
 // Definindo as opções para o ‘boxen’:
 const options = {
-  padding: 5,
-  margin: 5,
+  padding: 7,
+  margin: 7,
   borderStyle: 'double',
   float: 'center',
   borderColor: '#ff4879',
   backgroundColor: 'black',
 };
 
-// Inclusão do Text e mais as definições do ‘chalk’:
+// Inclusão do Text e mais as definições do ‘chalk’ e cores:
 const data = {
   name: chalk.white('         Glaucia Lemos /'),
+  openSource: chalk.white('   Node.Js Foundation /'),
   handle: chalk.white('glaucia_lemos86'),
   work: chalk.white('Software Developer at HackDev'),
   twitter: chalk.white('https://twitter.com/glaucia_lemos86'),
   github: chalk.white('https://github.com/glaucia86'),
   linkedin: chalk.white('https://www.linkedin.com/in/glaucialemos/'),
+  youtube: chalk.white('https://www.youtube.com/user/l32759'),
+  twitch: chalk.white('https://www.twitch.tv/glaucia_lemos86'),
+  instagram: chalk.white('https://www.instagram.com/glaucia.lemos.dev/'),
   web: chalk.white('https://code4coders.wordpress.com/'),
   npx: chalk.white('npx glaucia_lemos86'),
+
+  labelOpenSource: chalk.rgb(0, 77, 13).bold('     Open Source:'),
   labelWork: chalk.rgb(255, 0, 0).bold('      Work:'),
   labelTwitter: chalk.rgb(0, 255, 0).bold('   Twitter:'),
   labelGitHub: chalk.rgb(253, 245, 5).bold('    GitHub:'),
   labelLinkedIn: chalk.rgb(0, 255, 255).bold('  LinkedIn:'),
-  labelWeb: chalk.rgb(191, 255, 0).bold('       Web:'),
+  labelYoutube: chalk.rgb(255, 25, 25).bold('    Youtube:'),
+  labelTwitch: chalk.rgb(153, 102, 204).bold('     Twitch.tv:'),
+  labelInstagram: chalk.rgb(191, 255, 179).bold('     Instagram:'),
+  labelWeb: chalk.rgb(255, 136, 77).bold('       Web:'),
   labelCard: chalk.rgb(240, 13, 240).bold('      Card:'),
 };
 
 // Aqui será a saída do nosso Cartão Pessoal em NPX:
 const newline = '\n';
 const heading = `${data.name} ${data.handle}`;
+const opensourcing = `${data.labelOpenSource} ${data.openSource}`;
 const working = `${data.labelWork}  ${data.work}`;
 const twittering = `${data.labelTwitter}  ${data.twitter}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
+const youtubening = `${data.labelYoutube}`;
+const twitching = `${data.labelTwitch}`;
+const instagraming = `${data.labelInstagram}`;
 const webing = `${data.labelWeb}  ${data.web}`;
 const carding = `${data.labelCard}  ${data.npx}`;
 
 // Aqui devemos colocar toda a nossa saída numa única variável para que possamos usar
 // o ‘boxen de maneira efetiva:
-const output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding;
+const output = heading + newline + opensourcing + newline + working + newline + twittering + newline + githubing + newline + linkedining + youtubening + twitching + instagraming + newline + webing + newline + newline + carding;
 
 console.log(chalk.green(boxen(output, options)));
