@@ -30,9 +30,9 @@ const data = {
   web: chalk.white('https://code4coders.wordpress.com/'),
   npx: chalk.white('npx glaucia_lemos86'),
 
-  labelOpenSource: chalk.rgb(0, 77, 13).bold('     Open Source:'),
+  labelOpenSource: chalk.rgb(128, 255, 128).bold('     Open Source:'),
   labelWork: chalk.rgb(255, 0, 0).bold('      Work:'),
-  labelTwitter: chalk.rgb(0, 255, 0).bold('   Twitter:'),
+  labelTwitter: chalk.rgb(51, 51, 255).bold('   Twitter:'),
   labelGitHub: chalk.rgb(253, 245, 5).bold('    GitHub:'),
   labelLinkedIn: chalk.rgb(0, 255, 255).bold('  LinkedIn:'),
   labelYoutube: chalk.rgb(255, 25, 25).bold('    Youtube:'),
@@ -58,6 +58,27 @@ const carding = `${data.labelCard}  ${data.npx}`;
 
 // Aqui devemos colocar toda a nossa saída numa única variável para que possamos usar
 // o ‘boxen de maneira efetiva:
-const output = heading + newline + opensourcing + newline + working + newline + twittering + newline + githubing + newline + linkedining + youtubening + twitching + instagraming + newline + webing + newline + newline + carding;
+const output = heading +
+                newline +
+                opensourcing +
+                newline +
+                working +
+                newline +
+                twittering +
+                newline +
+                githubing +
+                newline +
+                linkedining +
+                newline +
+                youtubening +
+                newline +
+                twitching +
+                newline +
+                instagraming +
+                newline +
+                webing +
+                newline +
+                newline +
+                carding;
 
 console.log(chalk.green(boxen(output, options)));
