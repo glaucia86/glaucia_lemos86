@@ -1,6 +1,6 @@
 {
   "name": "glaucia_lemos86",
-  "version": "2.8.2",
+  "version": "2.9.2",
   "description": "Pacote que simula um Cartão Pessoal da Glaucia Lemos (@glaucia86). Esse projeto foi baseado pelo repositório do Tierney Cyren (@bitandbang)",
   "main": "index.js",
   "bin": {
