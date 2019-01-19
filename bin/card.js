@@ -30,14 +30,14 @@ const data = {
   web: chalk.white('https://code4coders.wordpress.com/'),
   npx: chalk.white('npx glaucia_lemos86'),
 
-  labelOpenSource: chalk.rgb(128, 255, 128).bold('   Open Source:'),
+  labelOpenSource: chalk.rgb(128, 255, 128).bold('Open Source:'),
   labelWork: chalk.rgb(255, 0, 0).bold('      Work:'),
   labelTwitter: chalk.rgb(51, 51, 255).bold('   Twitter:'),
   labelGitHub: chalk.rgb(253, 245, 5).bold('    GitHub:'),
   labelLinkedIn: chalk.rgb(0, 255, 255).bold('  LinkedIn:'),
   labelYoutube: chalk.rgb(255, 25, 25).bold('   Youtube:'),
-  labelTwitch: chalk.rgb(153, 102, 204).bold('  Twitch.tv:'),
-  labelInstagram: chalk.rgb(191, 255, 179).bold('  Instagram:'),
+  labelTwitch: chalk.rgb(153, 102, 204).bold(' Twitch.tv:'),
+  labelInstagram: chalk.rgb(191, 255, 179).bold(' Instagram:'),
   labelWeb: chalk.rgb(255, 136, 77).bold('       Web:'),
   labelCard: chalk.rgb(240, 13, 240).bold('      Card:'),
 };
