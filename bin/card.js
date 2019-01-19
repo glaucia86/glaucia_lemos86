@@ -18,7 +18,7 @@ const options = {
 // Inclusão do Text e mais as definições do ‘chalk’ e cores:
 const data = {
   name: chalk.white('         Glaucia Lemos /'),
-  openSource: chalk.white('   Node.Js Foundation /'),
+  openSource: chalk.white('   Node.Js Foundation'),
   handle: chalk.white('glaucia_lemos86'),
   work: chalk.white('Software Developer at HackDev'),
   twitter: chalk.white('https://twitter.com/glaucia_lemos86'),
@@ -45,20 +45,21 @@ const data = {
 // Aqui será a saída do nosso Cartão Pessoal em NPX:
 const newline = '\n';
 const heading = `${data.name} ${data.handle}`;
-const opensourcing = `${data.labelOpenSource} ${data.openSource}`;
+const opensourcing = `${data.labelOpenSource}  ${data.openSource}`;
 const working = `${data.labelWork}  ${data.work}`;
 const twittering = `${data.labelTwitter}  ${data.twitter}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
-const youtubening = `${data.labelYoutube}`;
-const twitching = `${data.labelTwitch}`;
-const instagraming = `${data.labelInstagram}`;
+const youtubening = `${data.labelYoutube}  ${data.youtube}`;
+const twitching = `${data.labelTwitch}  ${data.twitch}`;
+const instagraming = `${data.labelInstagram}  ${data.instagram}`;
 const webing = `${data.labelWeb}  ${data.web}`;
 const carding = `${data.labelCard}  ${data.npx}`;
 
 // Aqui devemos colocar toda a nossa saída numa única variável para que possamos usar
 // o ‘boxen de maneira efetiva:
 const output = heading +
+                newline +
                 newline +
                 opensourcing +
                 newline +
