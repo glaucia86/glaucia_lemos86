@@ -17,8 +17,8 @@ const options = {
 
 // Inclusão do Text e mais as definições do ‘chalk’ e cores:
 const data = {
-  name: chalk.white('         Glaucia Lemos /'),
-  openSource: chalk.white('   Node.Js Foundation'),
+  name: chalk.white('             Glaucia Lemos /'),
+  openSource: chalk.white('Node.Js Foundation'),
   handle: chalk.white('glaucia_lemos86'),
   work: chalk.white('Software Developer at HackDev'),
   twitter: chalk.white('https://twitter.com/glaucia_lemos86'),
@@ -36,8 +36,8 @@ const data = {
   labelGitHub: chalk.rgb(253, 245, 5).bold('    GitHub:'),
   labelLinkedIn: chalk.rgb(0, 255, 255).bold('  LinkedIn:'),
   labelYoutube: chalk.rgb(255, 25, 25).bold('   Youtube:'),
-  labelTwitch: chalk.rgb(153, 102, 204).bold(' Twitch.tv:'),
-  labelInstagram: chalk.rgb(191, 255, 179).bold(' Instagram:'),
+  labelTwitch: chalk.rgb(153, 102, 204).bold('Twitch.tv:'),
+  labelInstagram: chalk.rgb(191, 255, 179).bold('Instagram:'),
   labelWeb: chalk.rgb(255, 136, 77).bold('       Web:'),
   labelCard: chalk.rgb(240, 13, 240).bold('      Card:'),
 };
