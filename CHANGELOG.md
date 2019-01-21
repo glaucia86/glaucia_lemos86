@@ -9,8 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Sem alterações no projeto principal.
 
+## [2.10.9] - 2019-01-21
+### Added
+- Alteração no badge de Downloads no arquivo **README.md**
+
 ## [2.10.8] - 2019-01-21
 ### Added
 - Inclusão do C.I com Travis, visando uma melhoria e qualidade no código.
 - Inclusão de um script hook prepush: Husk
 - Inclusão de regras para o ESlint no escopo do pacote.
+
+

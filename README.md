@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/glaucia86/glaucia86.svg?branch=master)](https://travis-ci.org/glaucia86/glaucia86)
 ![Dependecies](https://david-dm.org/glaucia86/glaucia86.svg)
 [![HitCount](http://hits.dwyl.io/glaucia86/glaucia86.svg)](http://hits.dwyl.io/glaucia86/glaucia86)
-![Downloads](https://img.shields.io/npm/dt/glaucia86.svg?style=popout-square)
+![Downloads](https://img.shields.io/npm/dt/glaucia_lemos86.svg?style=popout-square)
 
 # Cartão Pessoal em NPX - Glaucia Lemos :floppy_disk:
 
