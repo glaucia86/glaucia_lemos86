@@ -1,20 +1,17 @@
-<img width="300px" src="https://github.com/rafinskipg/git-changelog/raw/master/images/git-changelog-logo.png" />
-
 # Git Changelog
 
 _Git changelog is a utility tool for generating changelogs. It is free and opensource. :)_
 
-## v1.0.0  ( Mon Jan 21 2019 02:17:27 GMT-0200 (GMT-02:00) )
+## v2.10.8  ( Mon Jan 21 2019 02:22:31 GMT-0200 (GMT-02:00) )
 
 
 ## Documentation
 
   - **readme**
+    - Alteração no escopo do projeto
+  ([43ca6aa9](https://github.com/glaucia86/glaucia86/commit/43ca6aa9e41fd863cd5b99d4db4081de05fac00e))
     - Add documentation for explaining the commit message
   ([fbb536e2](https://github.com/glaucia86/glaucia86/commit/fbb536e27292e3ddb2c8fd5d6f3e19d1349a2060))
-
-
-
 
 ## Test
   - testing code.
@@ -35,3 +32,5 @@ _Git changelog is a utility tool for generating changelogs. It is free and opens
 
 ---
 <sub><sup>*Generated with [git-changelog](https://github.com/rafinskipg/git-changelog). If you have any problems or suggestions, create an issue.* :) **Thanks** </sub></sup>
+
+
