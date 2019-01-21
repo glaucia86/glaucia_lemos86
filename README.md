@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/glaucia86/glaucia86.svg?branch=master)](https://travis-ci.org/glaucia86/glaucia86)
+![Dependecies](https://david-dm.org/glaucia86/glaucia86.svg)
+[![Last version](https://img.shields.io/badge/version-v1.0.0-blue.svg?style=for-the-badge)](https://github.com/glaucia86/glaucia86/blob/master/CHANGELOG.md)
+[![HitCount](http://hits.dwyl.io/glaucia86/poc-electron-serial-port-v2.svg)](http://hits.dwyl.io/glaucia86/poc-electron-serial-port-v2)
+
 # Cartão Pessoal em NPX - Glaucia Lemos :floppy_disk:
 
 <p align="center">
