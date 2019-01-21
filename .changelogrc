@@ -2,9 +2,9 @@
     "app_name": "Git Changelog",
     "logo": "https://github.com/rafinskipg/git-changelog/raw/master/images/git-changelog-logo.png",
     "intro": "Git changelog is a utility tool for generating changelogs. It is free and opensource. :)",
-    "branch" : "",
-    "repo_url": "",
-    "version_name" : "v1.0.0",
+    "branch" : "master",
+    "repo_url": "https://github.com/glaucia86/glaucia86",
+    "version_name" : "v2.10.8",
     "file": "CHANGELOG.md",
     "template": "myCustomTemplate.md",
     "sections": [
