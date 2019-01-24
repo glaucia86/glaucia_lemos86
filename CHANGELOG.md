@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Sem alterações no projeto principal.
 
+## [2.11.0] - 2019-01-24
+### Added
+- Novas alterações & inclusões de novos badges no arquivo **README.md**
+
 ## [2.10.9] - 2019-01-21
 ### Added
 - Alteração no badge de Downloads no arquivo **README.md**

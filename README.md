@@ -1,7 +1,12 @@
-[![Build Status](https://travis-ci.org/glaucia86/glaucia86.svg?branch=master)](https://travis-ci.org/glaucia86/glaucia86)
-![Dependecies](https://david-dm.org/glaucia86/glaucia86.svg)
-[![HitCount](http://hits.dwyl.io/glaucia86/glaucia86.svg)](http://hits.dwyl.io/glaucia86/glaucia86)
+![Build](https://img.shields.io/travis/glaucia86/glaucia86/master.svg)
+![GHTopLanguages](https://img.shields.io/github/languages/top/glaucia86/glaucia86.svg?colorB=gree)
+![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/glaucia86/glaucia86.svg)
+![RepoSize](https://img.shields.io/github/repo-size/glaucia86/glaucia86.svg?colorB=gree)
 ![Downloads](https://img.shields.io/npm/dt/glaucia_lemos86.svg?style=popout-square)
+![Issues](https://img.shields.io/github/issues/glaucia86/glaucia86.svg)
+![PullRequests](https://img.shields.io/github/issues-pr/glaucia86/glaucia86.svg)
+![License](https://img.shields.io/github/license/glaucia86/glaucia86.svg?colorB=gree)
+[![HitCount](http://hits.dwyl.io/glaucia86/glaucia86.svg)](http://hits.dwyl.io/glaucia86/glaucia86)
 
 # Cartão Pessoal em NPX - Glaucia Lemos :floppy_disk:
 
