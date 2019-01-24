@@ -5,7 +5,6 @@
 ![Downloads](https://img.shields.io/npm/dt/glaucia_lemos86.svg?style=popout-square)
 ![Issues](https://img.shields.io/github/issues/glaucia86/glaucia86.svg)
 ![PullRequests](https://img.shields.io/github/issues-pr/glaucia86/glaucia86.svg)
-![License](https://img.shields.io/github/license/glaucia86/glaucia86.svg?colorB=gree)
 [![HitCount](http://hits.dwyl.io/glaucia86/glaucia86.svg)](http://hits.dwyl.io/glaucia86/glaucia86)
 
 # Cartão Pessoal em NPX - Glaucia Lemos :floppy_disk:
