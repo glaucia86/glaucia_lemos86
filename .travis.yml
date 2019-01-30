@@ -12,7 +12,7 @@ cache:
     - node_modules
 
 script:
-  - npm run husky
+  - npm run lint
 
 cache:
   directories:
