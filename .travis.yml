@@ -12,8 +12,7 @@ cache:
     - node_modules
 
 script:
-  - npm run pre-commit
-  - npm run pre-push
+  - npm run husky
 
 cache:
   directories:
