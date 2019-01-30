@@ -6,14 +6,24 @@ node_js:
 install:
   - npm install
 
+cache:
+  npm: true
+  directories:
+    - node_modules
+
 script:
-  - npm run prepush
+  - npm run pre-commit
+  - npm run pre-push
 
 cache:
   directories:
     - "node_modules"
 
+branches:
+  only: master
+
 notifications:
   email:
     on_success: never
     on_failure: always
+

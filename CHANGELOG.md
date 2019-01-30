@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Sem alterações no projeto principal.
 
+## [2.11.2] - 2019-01-24
+### Added
+- Inclusão de novo script de padronização de commits: **lint-staged**
+- Alteração no hooks do **husky**
+- Alteração nas regras do Continous Integration no arquivo **.travis.yml**
+
 ## [2.11.1] - 2019-01-24
 ### Added
 - Remoção do badge 'LICENSE' no arquivo **README.md**
