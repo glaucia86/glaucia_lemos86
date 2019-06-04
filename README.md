@@ -29,15 +29,15 @@ Para instalar o package do meu cartão pessoal, bastam executar o seguinte coman
 
 ## Recursos Utilizados: :fire:
 
-- Visual Studio Code
+- **[Visual Studio Code](http://bit.ly/2KoflJH)**
 - Javascript
-- Node.Js
-- Npm
+- **[Node.Js](https://nodejs.org/en/)**
+- **[Npm](https://www.npmjs.com/)**
 - Uso dos pacotes:
-    - boxen
-    - chalk
-    - standard
-    - commander
+    - **[boxen](https://www.npmjs.com/package/boxen)**
+    - **[chalk](https://www.npmjs.com/package/chalk)**
+    - **[standard](https://www.npmjs.com/package/standard)**
+    - **[commander](https://www.npmjs.com/package/commander)**
 
 ## Okay... Curti! Quero fazer o meu.. Como faço?! :rocket:
 
@@ -96,7 +96,7 @@ const options = {
 const data = {
   name: chalk.white('Glaucia Lemos /'),
   handle: chalk.cyan('glaucia_lemos86'),
-  work: chalk.white('Software Developer at HackDev'),
+  work: chalk.white('Regional Cloud Advocate at Microsoft'),
   twitter: chalk.cyan('https://twitter.com/glaucia_lemos86'),
   github: chalk.cyan('https://github.com/glaucia86'),
   linkedin: chalk.cyan('https://www.linkedin.com/in/glaucialemos/'),
@@ -162,6 +162,15 @@ desenvolver de uma maneira mais simples. Fiquem à vontade para alterarem o cart
 
 Conforme mencionado acima, esse projeto foi baseado pelo repositório do **[Tierney Cyren](@bitandbang)**. 
 So, I would like to say thank you @bitandbang for your contribution in this awesome project! **[NPX Card Profile](https://github.com/bnb/bitandbang)** :star::star::star:
+
+## Links & Recursos Adicionais 🌟
+
+- **[Tutorial de Node.js no Visual Studio Code](http://bit.ly/2QJx92U)**
+- **[Depurando app Node.js no Visual Studio Code](http://bit.ly/2QJoZYf)**
+- **[Deploy de site Estático no Azure](http://bit.ly/2QJRkOe)**
+- **[Azure para desenvolvedores de JavaScript e Node.js](http://bit.ly/2KseHuD)**
+- **[E-Book Grátis: Criando Aplicativos Nativos de Nuvem com Node.js & Azure](http://bit.ly/2JVlf5y)**
+- **[E-Book Grátis: Learning Node.js Development](http://bit.ly/2QST8Vr)**
 
 ## Querem Propor Melhorias no Código? Façam Pull Request!!! 
 

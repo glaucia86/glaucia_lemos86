@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Sem alterações no projeto principal.
 
+## [2.11.3] - 2019-04-06
+### Added
+- Alteração no arquivo 'README.md' - inclusão de novos links & recursos adicionais **README.md**
+- Alteração no arquivo 'card.js' - inclusão de novos itens no cartão **card.js**
+
 ## [2.11.2] - 2019-01-24
 ### Added
 - Inclusão de novo script de padronização de commits: **lint-staged**
