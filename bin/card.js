@@ -15,7 +15,7 @@ const options = {
   backgroundColor: "black"
 };
 
-// Inclusão do Text e mais as definições do ‘chalk’ e cores:
+// Inclusão do texto e mais as definições do ‘chalk’ e cores:
 const data = {
   name: chalk.white("             Glaucia Lemos /"),
   openSource: chalk.white("Node.Js Foundation | React Community"),
