@@ -77,7 +77,7 @@ Basta seguir os passos abaixo:
 
 3. Feito isso, agora copie o código abaixo e coloque no arquivo **card.js**: (inclua os seus dados!!)
 
-```
+```js
 #!/usr/bin/env node
 // Usado para dizer ao Node.js que se trata de uma ferramenta do CLI
 
