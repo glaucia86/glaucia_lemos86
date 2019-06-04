@@ -1,7 +1,7 @@
 {
   "name": "glaucia_lemos86",
-  "version": "2.11.3",
-  "description": "Pacote que simula um Cartão Pessoal da Glaucia Lemos (@glaucia86). Esse projeto foi baseado pelo repositório do Tierney Cyren (@bitandbang)",
+  "version": "4.0.0",
+  "description": "Pacote que simula um Cartão Pessoal da Glaucia Lemos (@glaucia86) em npx. Esse projeto foi baseado pelo repositório do Tierney Cyren (@bitandbang)",
   "main": "index.js",
   "bin": {
     "glaucia86": "./bin/card.js"
@@ -41,6 +41,9 @@
     }
   },
   "lint-staged": {
-    "*.js": ["prettier --write", "git add"]
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }

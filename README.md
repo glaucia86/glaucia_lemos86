@@ -41,7 +41,7 @@ Para instalar o package do meu cartão pessoal, bastam executar o seguinte coman
 
 ## Okay... Curti! Quero fazer o meu.. Como faço?! :rocket:
 
-Basta seguir os passos abaixo:
+Bastam seguir os passos abaixo:
 
 1. Crie uma pasta do projeto de acordo com o seu nome do GitHub e siga os passos abaixo:
 
@@ -96,16 +96,18 @@ const options = {
 const data = {
   name: chalk.white('Glaucia Lemos /'),
   handle: chalk.cyan('glaucia_lemos86'),
-  work: chalk.white('Regional Cloud Advocate at Microsoft'),
+  work: chalk.white('Regional Cloud Developer at Microsoft'),
   twitter: chalk.cyan('https://twitter.com/glaucia_lemos86'),
   github: chalk.cyan('https://github.com/glaucia86'),
   linkedin: chalk.cyan('https://www.linkedin.com/in/glaucialemos/'),
+  medium: chalk.cyan('https://medium.com/@glaucia86'),
   web: chalk.cyan('https://code4coders.wordpress.com/'),
   npx: chalk.white('npx glaucia_lemos86'),
   labelWork: chalk.white.bold('      Work:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
+  labelMedium: chalk.white.bold('    Medium:')
   labelWeb: chalk.white.bold('       Web:'),
   labelCard: chalk.white.bold('      Card:')
 }
@@ -117,12 +119,13 @@ const working = `${data.labelWork}  ${data.work}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
+const mediuming = `${data.labelMedium}  ${data.medium}`
 const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
 // Aqui devemos colocar toda a nossa saída numa única variável para que possamos usar 
 // o ‘boxen de maneira efetiva: 
-const output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding
+const output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + mediuming + newline + webing + newline + newline + carding
 
 console.log(chalk.green(boxen(output, options)))
 ```
