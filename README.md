@@ -10,7 +10,7 @@
 # Cartão Pessoal em NPX - Glaucia Lemos :floppy_disk:
 
 <p align="center">
-  <img src="https://i.imgsafe.org/27/2779c5a323.png"/>  
+  <img src="https://i.postimg.cc/SKF1gYHV/Screen-Shot-06-04-19-at-01-19-PM.png"/>  
 </p>
 
 Desenvolvimento de um package que simula um cartão pessoal. O exemplo desenvolvido aqui foi baseado 
@@ -156,7 +156,7 @@ console.log(chalk.green(boxen(output, options)))
 
 E vòilá! Aparecerá o seu Cartão Pessoal!! :heart_eyes:
 
-![alt_image](https://i.imgsafe.org/27/2779c5a323.png)
+[![Screen-Shot-06-04-19-at-01-19-PM.png](https://i.postimg.cc/SKF1gYHV/Screen-Shot-06-04-19-at-01-19-PM.png)](https://postimg.cc/Mn5YTH6j)
 
 A versão da foto foi aprimorada. Aqui no **README.md** só estou explicando como
 desenvolver de uma maneira mais simples. Fiquem à vontade para alterarem o cartão pessoal de vocês!!! 😉
