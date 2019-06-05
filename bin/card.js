@@ -32,16 +32,16 @@ const data = {
   npx: chalk.white("npx glaucia_lemos86"),
 
   labelOpenSource: chalk.rgb(128, 255, 128).bold("Open Source:"),
-  labelWork: chalk.rgb(255, 0, 0).bold("      Work:"),
-  labelTwitter: chalk.rgb(51, 51, 255).bold("   Twitter:"),
-  labelGitHub: chalk.rgb(253, 245, 5).bold("    GitHub:"),
-  labelLinkedIn: chalk.rgb(0, 255, 255).bold("  LinkedIn:"),
-  labelYoutube: chalk.rgb(255, 25, 25).bold("   Youtube:"),
-  labelTwitch: chalk.rgb(153, 102, 204).bold(" Twitch.tv:"),
-  labelInstagram: chalk.rgb(191, 255, 179).bold(" Instagram:"),
-  labelMedium: chalk.rgb(102, 51, 0).bold("    Medium:"),
-  labelWeb: chalk.rgb(255, 136, 77).bold("       Web:"),
-  labelCard: chalk.rgb(240, 13, 240).bold("      Card:")
+  labelWork: chalk.rgb(255, 0, 0).bold("       Work:"),
+  labelTwitter: chalk.rgb(51, 51, 255).bold("    Twitter:"),
+  labelGitHub: chalk.rgb(253, 245, 5).bold("     GitHub:"),
+  labelLinkedIn: chalk.rgb(0, 255, 255).bold("   LinkedIn:"),
+  labelYoutube: chalk.rgb(255, 25, 25).bold("    Youtube:"),
+  labelTwitch: chalk.rgb(153, 102, 204).bold("  Twitch.tv:"),
+  labelInstagram: chalk.rgb(191, 255, 179).bold("  Instagram:"),
+  labelMedium: chalk.rgb(102, 51, 0).bold("     Medium:"),
+  labelWeb: chalk.rgb(255, 136, 77).bold("        Web:"),
+  labelCard: chalk.rgb(240, 13, 240).bold("       Card:")
 };
 
 // Aqui será a saída do nosso Cartão Pessoal em NPX:
@@ -61,31 +61,21 @@ const carding = `${data.labelCard}  ${data.npx}`;
 
 // Aqui devemos colocar toda a nossa saída numa única variável para que possamos usar
 // o ‘boxen de maneira efetiva:
-const output =
-  heading +
-  newline +
-  newline +
-  opensourcing +
-  newline +
-  working +
-  newline +
-  twittering +
-  newline +
-  githubing +
-  newline +
-  linkedining +
-  newline +
-  youtubening +
-  newline +
-  twitching +
-  newline +
-  instagraming +
-  newline +
-  mediuming +
-  newline +
-  webing +
-  newline +
-  newline +
-  carding;
+const output = [
+  heading,
+  newline,
+  opensourcing,
+  working,
+  twittering,
+  githubing,
+  linkedining,
+  youtubening,
+  twitching,
+  instagraming,
+  mediuming,
+  webing,
+  newline,
+  carding
+].join(newline);
 
 console.log(chalk.green(boxen(output, options)));
