@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Sem alterações no projeto principal.
 
+## [4.0.3] - 2019-04-06
+### Added
+- Merge das contribuições realizadas pelo: @lffg - PR #3: Usar `Array.prototype.join` para evitar a duplicação de código
+
 ## [4.0.2] - 2019-04-06
 ### Added
 - Merge das contribuições realizadas pelo: @thalesmello & @LuasDEV
